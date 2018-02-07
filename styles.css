@@ -1,0 +1,48 @@
+body {
+  margin: 0px;
+}
+
+.header {
+  position: relative;
+  height: 200px;
+  width: 100%;
+}
+
+.header-banner {
+  position: absolute;
+}
+
+.nav-bar {
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  height: 60px;
+  width: 100%;
+  background-color: #262626;
+}
+
+.nav-bar-list {
+  list-style: none;
+  padding-top: 6px;
+}
+
+.nav-bar-button {
+  margin-left: 20px;
+  margin-right: 20px;
+  float: left;
+}
+
+.content {
+  height: 800px;
+}
+
+.footer {
+  background-color: #262626;
+}
+
+.legal {
+  text-align: center;
+  color: white;
+  padding-bottom: 12px;
+}
