@@ -9,8 +9,7 @@ body {
 }
 
 .header-banner {
-  width: 150px;
-  height: 100px;
+  width: 100%;
   background-image: url(banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
