@@ -9,7 +9,12 @@ body {
 }
 
 .header-banner {
-  position: absolute;
+  width: 150px;
+  height: 100px;
+  background-image: url(banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .nav-bar {
