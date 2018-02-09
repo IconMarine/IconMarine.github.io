@@ -37,7 +37,7 @@ body {
   height: 800px;
 }
 
- .gmap {
+ #gmap {
    width: 100%;
    height: 400px;
    background-color: grey;
