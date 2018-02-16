@@ -2,33 +2,65 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="shortcut icon" href="favicon.ico">
     <title>Icon Marine Inc.</title>
   </head>
+
   <body>
     <div class="header">
-      <div class="header-banner">
+      <div class="top-bar">
+        <div class="top-bar-logo">
+          <a href="iconmarine.net"><img src="logo.svg" width="36px"><a>
+        </div>
+        <div class="contact-info">
+          24 hours a day <p style="color:#009966; display:inline;">&nbsp | &nbsp</p>
+          7 days a week <p style="color:#009966; display:inline;">&nbsp | &nbsp</p>
+          (604) - 671- 4888 <p style="color:#009966; display:inline;">&nbsp | &nbsp</p>
+          <a href="mailto:icon@iconmarine.net?Subject=Launch%20Boat%20Service" target="_top" style="color:#0782CF; display:inline;">icon@iconmarine.net</a>
+        </div>
+        <div class="contact">
+          <a href="#message">SEND US A MESSAGE</a>
+        </div>
       </div>
-      <div class="nav-bar">
-        <ul class="nav-bar-list">
-          <li class="nav-bar-button"><a href="/">Home</a></li>
-          <li class="nav-bar-button"><a href="/services">Contact</a></li>
-        </ul>
+      <div class="title-container">
+        <div class="title">
+        </div>
       </div>
     </div>
     <div class="content">
-      Homepage
+      <div class="about">
+        <h2 class="section-header">ABOUT US</h2>
+      </div>
+      <div class="services">
+        <h2 class="section-header">OUR SERVICES</h2>
+      </div>
+      <div class="boats">
+        <h2 class="section-header">OUR BOATS</h2>
+      </div>
+      <div class="area">
+        <h2 class="section-header">ANCHORAGES</h2>
+        <img src="map-van.svg" width="600px" style="margin-top:16px; margin-left:32%;">
+      </div>
+      <div class="location">
+        <h2 class="section-header">WHERE WE ARE LOCATED</h2>
+      </div>
     </div>
     <div class="footer">
-      <div class="footer-links">
-        Facebook Twitter Instagram
-      </div>
-      <div class="footer-contact">
-        Contact Us
+      <div id="message">
+        <h2 class="section-header">CONTACT US</h2>
+        <form action="" id="message">
+          <div class="form-container">
+            <p style="margin:3px; float:right;">Name: <input type="text" name="message" size="30" required></p> <br/>
+            <p style="margin:3px; float:right;">Email: <input type="text" name="message" size="30" required></p> <br/>
+            <p style="margin:3px; float:right;">Phone: <input type="text" name="message" maxlength="10" size="30" required></p> <br/>
+            <textarea name="email" form="message" placeholder="Write your message here..." size="60" rows="5" cols="40" required style="float:right; margin:3px;"></textarea> <br/>
+            <p style="margin:0px; float:right; padding-top: 3px;"><input type="image" src="send-message.svg" width="160px"></p>
+          </div>
+        </form>
       </div>
       <div class="legal">
-        Copyright © 2018 Icon Marine Inc. All Rights Reserved. Developed by Sean Clarke
+        Copyright © 2018 Icon Marine Inc. All Rights Reserved. Website by <a href="https://github.com/Sean-Clarke" style="color:#0782CF; font-weight:bold; display:inline;">Sean Clarke</a>
       </div>
     </div>
   </body>
