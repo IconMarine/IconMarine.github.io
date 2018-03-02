@@ -179,7 +179,7 @@ body {
   background-color: #009966;
 }
 
-#contact-submit:focus {
+#contact-submit:active {
   background-color: white;
   color: #333333;
   border-color: white;
