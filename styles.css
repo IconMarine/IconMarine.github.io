@@ -177,6 +177,7 @@ body {
 
 #contact-submit:hover {
   background-color: #009966;
+  cursor: pointer;
 }
 
 #contact-submit:active {
