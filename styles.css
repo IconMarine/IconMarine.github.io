@@ -164,6 +164,7 @@ body {
 }
 
 #contact-message {
+  overflow: scroll;
   resize: none;
 }
 
